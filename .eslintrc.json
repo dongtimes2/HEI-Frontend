@@ -34,9 +34,9 @@
             "position": "before"
           },
           {
-            "pattern": "{@app/**, @components/**, @hooks/**, @assets/**, @components/**}",
-            "group": "internal",
-            "position": "after"
+            "pattern": "{@app/**,@components/**,@hooks/**,@assets/**,@components/**,@provider/**,@styles/**,@store/**}",
+            "group": "external",
+            "position": "before"
           }
         ],
         "pathGroupsExcludedImportTypes": ["react", "react-native", "expo**"],

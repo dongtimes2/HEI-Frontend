@@ -8,7 +8,10 @@
       "@assets/*": ["./assets/*"],
       "@components/*": ["./components/*"],
       "@constants/*": ["./constants/*"],
-      "@hooks/*": ["./hooks/*"]
+      "@hooks/*": ["./hooks/*"],
+      "@provider/*": ["./provider/*"],
+      "@styles/*": ["./styles/*"],
+      "@store/*": ["./store/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"],
