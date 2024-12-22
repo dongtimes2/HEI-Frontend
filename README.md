@@ -1,50 +1,54 @@
-# Welcome to your Expo app 👋
+# HEI Corp Project.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## How to run
 
 ```bash
-npm run reset-project
+$ npm install
+$ npm start
+```
+You should run IOS Simulator or Android Device with Expo Go.
+
+## Environment variables
+
+```bash
+EXPO_PUBLIC_AWS_ACCESS_KEY_ID
+EXPO_PUBLIC_AWS_SECRET_ACCESS_KEY
+EXPO_PUBLIC_AWS_REGION
+EXPO_PUBLIC_AWS_BUCKET_NAME
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Development Environment
 
-## Learn more
+- Node.js: 20.15.1
+- Expo: 52
+- IOS_Device: IPhone 16 Pro
+- ANDROID_Device: Samsung Galaxy A90 5G
 
-To learn more about developing your project with Expo, look at the following resources:
+## Features
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Upload image
 
-## Join the community
+Click the plus button on the right side of the bottom.
+Then, you can pick up an image from your device.  
+If you want to upload an image, you should click the upload button.
 
-Join our community of developers creating universal apps.
+<div>
+  <img src="https://github.com/user-attachments/assets/24b6eaac-4b1b-4a6e-acd6-cfb14971fb8e" width="400">
+</div>
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Check image information
+
+Click the image you want to check.
+Then, you can see the image information. (name, size, date)
+
+<div>
+  <img src="https://github.com/user-attachments/assets/7b80ab00-c0b6-4dec-b615-5f30a8466194" width="400">
+</div>
+
+### Light / Dark mode
+
+This application supports light / dark mode.
+
+<div>
+  <img src="https://github.com/user-attachments/assets/297e9bba-ccc6-4bc6-a838-e6f375fc663a" width="400">
+</div>
