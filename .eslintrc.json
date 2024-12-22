@@ -14,7 +14,13 @@
   "env": {
     "react-native/react-native": true
   },
-  "ignorePatterns": ["node_modules/**/*", "ios/**/*", "android/**/*", "build/**/*"],
+  "ignorePatterns": [
+    "node_modules/**/*",
+    "ios/**/*",
+    "android/**/*",
+    "build/**/*",
+    "babel.config.js"
+  ],
   "rules": {
     "import/no-unresolved": "off",
     "@typescript-eslint/no-require-imports": "off",
