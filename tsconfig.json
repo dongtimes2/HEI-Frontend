@@ -9,9 +9,10 @@
       "@components/*": ["./components/*"],
       "@constants/*": ["./constants/*"],
       "@hooks/*": ["./hooks/*"],
-      "@provider/*": ["./provider/*"],
+      "@providers/*": ["./providers/*"],
       "@styles/*": ["./styles/*"],
-      "@store/*": ["./store/*"]
+      "@stores/*": ["./stores/*"],
+      "@tests/*": ["./tests/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"],

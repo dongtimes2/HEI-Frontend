@@ -40,7 +40,7 @@
             "position": "before"
           },
           {
-            "pattern": "{@app/**,@components/**,@hooks/**,@assets/**,@components/**,@provider/**,@styles/**,@store/**}",
+            "pattern": "{@app/**,@components/**,@hooks/**,@assets/**,@components/**,@providers/**,@styles/**,@stores/**,@tests/**}",
             "group": "external",
             "position": "before"
           }
