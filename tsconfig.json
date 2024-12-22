@@ -12,7 +12,8 @@
       "@providers/*": ["./providers/*"],
       "@styles/*": ["./styles/*"],
       "@stores/*": ["./stores/*"],
-      "@tests/*": ["./tests/*"]
+      "@tests/*": ["./tests/*"],
+      "@api/*": ["./api/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"],

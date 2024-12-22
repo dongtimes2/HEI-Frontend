@@ -24,6 +24,7 @@
   "rules": {
     "import/no-unresolved": "off",
     "@typescript-eslint/no-require-imports": "off",
+    "@typescript-eslint/no-explicit-any": "off",
     "import/order": [
       "error",
       {
@@ -40,7 +41,7 @@
             "position": "before"
           },
           {
-            "pattern": "{@app/**,@components/**,@hooks/**,@assets/**,@components/**,@providers/**,@styles/**,@stores/**,@tests/**}",
+            "pattern": "{@app/**,@components/**,@hooks/**,@assets/**,@components/**,@providers/**,@styles/**,@stores/**,@tests/**,@api/**}",
             "group": "external",
             "position": "before"
           }
